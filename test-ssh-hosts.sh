@@ -19,7 +19,7 @@ if [ -n "$1" ]; then
             usage; exit 0;;
         *)
             usage; exit 0;;
-        esac
+    esac
 fi
 
 for host in "${hosts[@]}"; do
